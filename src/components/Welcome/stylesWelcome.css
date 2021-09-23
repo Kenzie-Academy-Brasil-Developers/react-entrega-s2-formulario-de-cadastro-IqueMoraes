@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-image: url("https://i.picsum.photos/id/760/1440/1256.jpg?blur=2&hmac=G19vxZeGJGGhZdCa_6IPWjkr00muGZPTEs9AxX_eOqY");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caixa {
+  padding: 30px;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 248, 220, 0.719);
+  border-radius: 10px;
+}
